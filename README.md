@@ -2,8 +2,6 @@
 ## General Information
 Authors: Pratyush Singh, Rohit Kaushik, Melvin Ott; Group: BruteForce
 
-## Setup
-We didn't use any additional libraries, so you can install the depenencies as described on the project website
 
 ## Recreating our best submission
 You can use the following command:
