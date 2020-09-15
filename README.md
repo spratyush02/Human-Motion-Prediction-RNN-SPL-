@@ -3,6 +3,9 @@
 Authors: Pratyush Singh, Rohit Kaushik, Melvin Ott; Group: BruteForce
 
 
+## Abstract
+Modelling human motion is a challenging task in computer vision and graphics since human body movement can change drastically from one environment to another. It’s an important task for developing and deploying autonomous agents. In order to tackle this issue, we take inspiration from the Structured Prediction Layer (SPL) which decomposes the pose into individual joints and can be augmented with different neural network architectures. We introduce the SPL dropout layer and describe its effect on the prediction scores. Using the per joint loss instead ofthe standard mean squared error as well as a residual connection for modelling velocities help us stay afloat on the top of leaderboard in the Machine Perception course project at ETH Zurich.
+
 ## Recreating our best submission
 You can use the following command:
 
