@@ -1,6 +1,6 @@
 # Human Motion Prediction
 ## General Information
-Authors: Rohit Kaushik, Pratyush Singh, Melvin Ott; Group: BruteForce
+Authors: Pratyush Singh, Rohit Kaushik, Melvin Ott; Group: BruteForce
 
 ## Setup
 We didn't use any additional libraries, so you can install the depenencies as described on the project website
@@ -23,3 +23,5 @@ bsub -n 6 -W 4:00 -R "rusage[mem=1024, ngpus_excl_p=1]"  -R "select[gpu_model0==
 ## Notes
 
 Make sure to **not** use a GTX 1080 on the cluster as this lead to problems in our experience
+
+Proper licensing and permission required to use the codes.
